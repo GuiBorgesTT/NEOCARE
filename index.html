@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pediatra em Vila Velha | NeoCare Clínica Pediátrica</title>
+<meta name="description" content="NeoCare Clínica Pediátrica em Vila Velha: pediatria e neonatologia com a Dra. Lorena Tonetto. Agende sua consulta pelo WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"MedicalClinic","name":"NeoCare Clínica Pediátrica","medicalSpecialty":"Pediatric","telephone":"+55 27 3208-5888","email":"neocareclinicapediatrica@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Vila Velha","addressRegion":"ES","addressCountry":"BR"}}
+</script>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<a class="sr" href="#sobre">Pular para o conteúdo</a>
+
+<div id="site"></div>
+
+<a id="fab-wa" class="fab-wa" target="_blank" rel="noopener" href="#"></a>
+<button id="fab-edit" class="fab-edit" type="button" aria-label="Abrir painel de edição do site">✎ Editar site</button>
+
+<aside id="panel" class="panel" aria-label="Painel de edição de conteúdo" aria-hidden="true">
+  <div class="panel-h">
+    <div><strong>Painel de conteúdo</strong><small>Demonstração: em produção, acesso com login</small></div>
+    <button id="panel-close" type="button" aria-label="Fechar painel">×</button>
+  </div>
+  <div class="tabs" id="tabs" role="tablist"></div>
+  <div class="pbody" id="pbody"></div>
+  <div class="panel-f">
+    <button class="btn-s" id="btn-export" type="button">Exportar</button>
+    <label class="btn-s" for="file-import">Importar<input id="file-import" type="file" accept="application/json" hidden></label>
+    <button class="btn-s danger" id="btn-reset" type="button">Restaurar original</button>
+    <span class="saved" id="saved">✓ Salvo</span>
+  </div>
+</aside>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
